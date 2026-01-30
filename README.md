@@ -1,7 +1,7 @@
 # AI-4-Creativity-Project-Template (25/26)
 
 **Student name:** Jay Patel  
-**Student number:** 2312665
+**Student number:** 2312665  
 **Project title:** Fake News Detection System  
 **Link to project video recording:** https://drive.google.com/file/d/1W9rxz54U8uunG0G609TP9Ne0eL0B_rgO/view?usp=drivesdk
 
