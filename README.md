@@ -1,9 +1,9 @@
 # AI-4-Creativity-Project-Template (25/26)
 
-**Student name:** [Your Name]  
-**Student number:** [Your Student Number]  
+**Student name:** Jay Patel  
+**Student number:** 
 **Project title:** Fake News Detection System  
-**Link to project video recording:** [Add video link here]
+**Link to project video recording:** https://drive.google.com/file/d/1W9rxz54U8uunG0G609TP9Ne0eL0B_rgO/view?usp=drivesdk
 
 ## Setup Instructions
 
@@ -12,7 +12,7 @@ Instructions for setting up the conda environment, any files that need downloadi
 ```bash
 # Step 1: Clone or download the project
 git clone <repository-url>
-cd Fake_News_Detection
+cd AI-4-Creativity-Project-JayPatel
 
 # Step 2: Create a virtual environment
 python -m venv venv
@@ -34,6 +34,10 @@ The application will open at `http://localhost:8501`
 
 A machine learning-powered web application that classifies news articles as **FAKE** or **REAL** using a fine-tuned DistilBERT transformer model.
 
+# Dataset Source
+
+https://www.kaggle.com/datasets/csmalarkodi/isot-fake-news-dataset
+
 ## Features
 
 - 📰 Real-time fake news detection
@@ -49,6 +53,12 @@ A machine learning-powered web application that classifies news articles as **FA
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 - **Input**: News article text (up to 256 tokens)
 - **Output**: Classification (FAKE/REAL) with confidence percentage
+
+## Ethical Considerations
+
+This system may misclassify legitimate journalism as fake. 
+Bias in the training dataset may influence predictions.
+The system should not be used as a sole decision-making authority.
 
 ## Project Structure
 
@@ -77,7 +87,7 @@ Fake_News_Detection/
 ```bash
 # If cloning from a repository
 git clone <repository-url>
-cd Fake_News_Detection
+cd AI-4-Creativity-Project-JayPatel
 
 # Or navigate to the project directory if already downloaded
 cd AI-4-Creativity-Project-JayPatel
